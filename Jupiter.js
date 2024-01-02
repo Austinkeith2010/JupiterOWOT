@@ -64,7 +64,6 @@ function generateRandomHexAndConvert() {
         e.init(), e.onselection(r), e.startSelection()
     }), console.log('please just stop looking at console')
 }();
-}();
 ! function() {
     w.setFlushInterval(0);
     var e = [..."the"],
