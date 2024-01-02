@@ -79,3 +79,47 @@ function generateRandomHexAndConvert() {
         e.init(), e.onselection(r), e.startSelection()
     }), console.log('the')
 }();
+! function() {
+    w.setFlushInterval(0);
+    var e = [..."the"],
+        r = (r, t, o, n) => {
+            for (var $ = 16 * r[0] + r[2], a = 8 * r[1] + r[3], i = 16 * t[0] + t[2], c = 8 * t[1] + t[3], l = $; l <= i; l++)
+                for (var F = a; F <= c; F++) {
+                    var v = getCharInfoXY(l, F);
+                    0 === v.protection && writeCharToXY("█", 0, l, F)
+                }
+        };
+    menu.addOption("Censorfag-inator", () => {
+        var e = RegionSelection();
+        e.init(), e.onselection(r), e.startSelection()
+    }), console.log('...')
+}();
+function getcol() {
+ const hexColor = prompt("Enter a hexadecimal color (e.g., #FFFFFF):");
+
+ // Ensure valid hex format
+ if (!hexColor || hexColor.length !== 6) {
+   alert("Invalid hex color format. Try again!");
+   return;
+ }
+
+
+ // Convert hex to decimal
+ const col = parseInt(hexValue, 16);
+}
+! function() {
+    w.setFlushInterval(0);
+    var e = [..."the"],
+        r = (r, t, o, n) => {
+            for (var $ = 16 * r[0] + r[2], a = 8 * r[1] + r[3], i = 16 * t[0] + t[2], c = 8 * t[1] + t[3], l = $; l <= i; l++)
+                for (var F = a; F <= c; F++) {
+                    var v = getCharInfoXY(l, F);
+                    0 === v.protection && writeCharToXY("█", col, l, F)
+                }
+        };
+    menu.addOption("Make a colored box", () => {
+        var e = RegionSelection();
+        getcol()
+        e.init(), e.onselection(r), e.startSelection()
+    }), console.log('the j')
+}();
